@@ -1,0 +1,58 @@
+
+
+<h1 *ngIf="showShortVersion">Here's the short version!</h1>
+<h1 *ngIf="!showShortVersion">Here's the long version!</h1>
+<button type="button" (click)="showText()">
+    <!--{{ showShortVersion ? '( Give me the long version )': '( ^ Give me the short version ^ )' }}-->
+    <span *ngIf="showShortVersion"><i class="fa-solid fa-angles-down"></i> &nbsp;I want the long version.&nbsp; <i class="fa-solid fa-angles-down"></i></span>
+    <span *ngIf="!showShortVersion"><i class="fa-solid fa-angles-up"></i> &nbsp;I want the short version.&nbsp; <i class="fa-solid fa-angles-up"></i></span>
+  </button>
+
+<div *ngIf="showShortVersion">
+    <p>My name is Jade Kelly and I'm a Seattle-based 
+        front-end developer. I love taking the time to give a project the
+        polish it deserves. I've been intrigued and delighted by the 
+        powers of development (whether it be for web or another application) 
+        for the majority of my living memory, and I am thrilled to be making 
+        a career out of it.</p>
+</div>
+
+<div *ngIf="!showShortVersion">
+    <p> My name is Jade Kelly and I'm a Seattle-based developer who specializes 
+        in front-end development and design.</p>
+        
+        <p> I love crafting experiences. I love a challenging puzzle,
+        and the satisfaction that comes from solving it. I love experimenting, 
+        and I'm not afraid to track down a fix if I try something
+        that breaks my project. I love seeing the power of programming at work,
+        and harnessing it.</p>
+        
+        <p> I've been cheerfully exploring the ins and outs of web development ever
+        since I realized anybody could make a website. At the tender age of ten,
+        I asked how <i>I</i> could make a website, and I was pointed toward the 
+        now-defunct MySpace. This sated me only temporarily--I refused to be fettered 
+        by the site's limitations. From there, it was HTML tutorials, tracking
+        down free ways to host, diving into forum moderation and development.
+        I loved it all!</p>
+        
+        <p> These days, I don't have the time for developing or moderation of such
+        social platforms, but I do enjoy coming up with templates and themes for others
+        to use. I've also dabbled in other forms of experience-crafting -- applications
+        and video games are particularly exciting to me. The education I've received
+        in these fields is invaluable to me; it's a wonder what can be accomplished 
+        just by harnessing language in the right way.</p>
+        
+        <p> When I'm not playing with front-end adjacent hobbies, there are numerous other things
+        I enjoy doing to spend my time. I write fiction, I play video games, I read, I study
+        psychology, I design for-print media. And it's my belief that these activities, too,
+        lend to my abilities and enrich me as an individual and as a professional.</p>
+        
+        <p> I aspire to learn and grow, to expand my horizons beyond that which
+        is most familiar to me.</p>
+        
+        <p> At this time, my knowledge as a programmer may be focused toward the 
+        client-side, but I am equally intrigued by back-end, and aspire to 
+        grow my skills in full-stack work.</p>
+</div>
+
+

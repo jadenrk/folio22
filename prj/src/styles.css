@@ -1,1 +1,136 @@
-/* You can add global styles to this file, and also import other style files */
+/* Available fonts:
+    Fredoka, a nice sans-serif font. Available in weights 300, 400, 500, 600, 700
+    Yeseva One, a scripty font meant for headers and accenting. Available in one weight. */
+
+
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: rgb(231,190,170);
+    background: -moz-linear-gradient(171deg, rgba(231,190,170,1) 0%, rgba(140,232,222,1) 100%);
+    background: -webkit-linear-gradient(171deg, rgba(231,190,170,1) 0%, rgba(140,232,222,1) 100%);
+    background: linear-gradient(171deg, rgba(231,190,170,1) 0%, rgba(140,232,222,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e7beaa",endColorstr="#8ce8de",GradientType=1);
+    font-family: Fredoka, 'sans-serif';
+  }
+
+p {
+    margin: 0;
+  }
+
+  #intro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 9vh;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Yeseva One';
+  }
+
+  #intro h1 {
+      margin-right: 100px;
+  }
+
+  #intro p {
+      margin-left: 100px;
+      line-height: 1.25em;
+  }
+
+  #gem {
+      height:85%;
+      position: absolute;
+  }
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+
+  nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Yeseva One';
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  nav ul {
+      display: block;
+      list-style-type:none;
+      margin: 1em;
+      padding: 0;
+  }
+
+  nav li {
+      display: inline-block;
+      margin: 0px 20px 10px 20px;
+  }
+
+  nav a, nav a:visited {
+    display: inline-block;
+    padding: 0px 10px;
+    color: #e7a890;
+    border-left: 3px solid #e7a890;
+    border-right: 3px solid #e7a890;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.25s;
+  }
+
+  nav a:hover {
+    color: #fff;
+    background-color: #e7a890;
+    border-left: 33px solid #ffdaba;
+    border-right: 33px solid #cf7c5b;
+  }
+  
+
+  a,
+  a:visited,
+  a:hover {
+    color: #388b8b;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #1caebb;
+  }
+
+.content {
+  display: flex;
+  position: absolute;
+  bottom:3vh;
+  top: 18vh;
+  left: 9vw;
+  right: 9vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+  min-width: 350px;
+  flex-direction: column;
+  background: rgb(235,237,237);
+  background: -moz-linear-gradient(349deg, rgba(235,237,237,1) 0%, rgba(255,250,248,1) 84%);
+  background: -webkit-linear-gradient(349deg, rgba(235,237,237,1) 0%, rgba(255,250,248,1) 84%);
+  background: linear-gradient(349deg, rgba(235,237,237,1) 0%, rgba(255,250,248,1) 84%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ebeded",endColorstr="#fffaf8",GradientType=1); 
+  overflow-y: auto;
+  overflow-x:hidden;
+}
