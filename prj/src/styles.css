@@ -19,9 +19,7 @@ body {
     font-family: Fredoka, 'sans-serif';
   }
 
-p {
-    margin: 0;
-  }
+  
 
   #intro {
     position: absolute;
@@ -116,21 +114,25 @@ p {
 
 .content {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 350px;
+  padding: 0 16px;
+  flex-direction: column;
   position: absolute;
   bottom:3vh;
   top: 18vh;
   left: 9vw;
   right: 9vw;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 16px;
-  min-width: 350px;
-  flex-direction: column;
-  background: rgb(235,237,237);
-  background: -moz-linear-gradient(349deg, rgba(235,237,237,1) 0%, rgba(255,250,248,1) 84%);
-  background: -webkit-linear-gradient(349deg, rgba(235,237,237,1) 0%, rgba(255,250,248,1) 84%);
-  background: linear-gradient(349deg, rgba(235,237,237,1) 0%, rgba(255,250,248,1) 84%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ebeded",endColorstr="#fffaf8",GradientType=1); 
+  background: rgba(235,237,237,0.75);
+  border: solid 10px rgb(241, 239, 238);
   overflow-y: auto;
   overflow-x:hidden;
+}
+
+.content p {
+  max-width: 50%;
+  width: 750px;
+  font-size: 1.1em;
+  margin: 0.5em auto;
 }

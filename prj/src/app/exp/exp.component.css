@@ -1,0 +1,28 @@
+h2 {
+    font-family: 'Yeseva One';
+    text-align: center;
+    margin:2em 0 0 0;
+    padding: 0;
+    color: #34baaf;
+    text-shadow: #fff 2px 1px 0;
+}
+
+.sectionhead {
+    display: block;
+    max-width: 50%;
+    width: 750px;
+    margin: 0.5em auto;
+}
+
+h3 {
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+    color: #30746b;
+}
+.subtitle {
+    display: inline-block;
+    margin-left: 1.5em;
+    color: #30746b;
+    font-size: 0.9em;
+}

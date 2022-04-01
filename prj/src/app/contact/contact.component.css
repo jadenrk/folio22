@@ -1,0 +1,25 @@
+#links {
+    width: 100%;
+    text-align: center;
+    margin-top: 5em;
+}
+a, a:visited {
+    display: inline-block;
+    padding: 0px 10px;
+    color: #34baaf;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.25s;
+    font-size: 1.5em;
+    text-shadow: #fff 2px 1px 0;
+  }
+
+i {
+    font-size: 5em;
+    margin: 0 0.5em 0.1em 0.5em;
+}
+
+  a:hover {
+    color: #fff;
+    text-shadow: none;
+    text-shadow: #34baaf 2px 2px 2px;
+  }

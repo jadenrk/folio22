@@ -1,22 +1,61 @@
 h1 {
   padding:0;
   margin:0;
-  display: inline-block;
   font-weight: 700;
+  text-align:center;
+  color: #34baaf;
+  text-shadow: #fff 2px 1px 0;
+}
+
+p {
+    display: block;
 }
 
 button {
   background-color:transparent;
   border: none;
   color: #000;
-  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
   font-family: Fredoka, sans-serif;
   font-style: italic;
+  color: #34baaf;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
 }
 
 button:hover {
     cursor:pointer;
+    color: #fff;
+    background-color: #34baaf;
+    border-left: 33px solid #8eccba;
+    border-right: 33px solid #30746b;
 }
+
+.sidepic {
+    display: inline-block;
+}
+
+.sidepic img {
+    height: 9vh;
+    border-radius: 45px;
+    margin-right: 25px;
+}
+
+
+.abt-head {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+    align-content: center;
+  }
+
+  .abt-head-right {
+      display:inline-block;
+  }
